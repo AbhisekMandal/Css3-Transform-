@@ -4,9 +4,21 @@
     box-sizing: border-box;
 }
 body{
-    background-color:aquamarine;
-}
-div{
+    background-color:rgb(21, 24, 23);
+   
     
-
+}  
+div{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    margin-top:20px ;
+    margin-left: 45%;
+    border-radius: 10px;
+    box-shadow: 0px 2px red, 2px 0px aqua;
+    
+}
+.box1:hover{
+    transform: translateX(100px);
+    transition: 2s;
 }
